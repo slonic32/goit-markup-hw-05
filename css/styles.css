@@ -546,14 +546,14 @@ button {
 
 .subscribe-form-input {
   min-width: 264px;
-  padding: 7px 15px;
+  padding: 8px 16px;
   color: var(--color-WHITE);
-  background: var(--color-Navy-blue);
+  background-color: transparent;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
   border: 1px solid var(--color-WHITE);
