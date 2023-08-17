@@ -459,7 +459,7 @@
         </div>
 
         <!--Icons-->
-        <div>
+        <div class="section-footer-icons">
           <p class="text-body-medium section-footer-icons-text">Social media</p>
           <ul class="list section-footer-list-icons">
             <li class="section-footer-icon-item">
@@ -491,6 +491,27 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <!--Subscribe form-->
+        <div>
+          <form name="subscribe-form" autocomplete="on" novalidate>
+            <p class="text-body-medium subscribe-form-text">Subscribe</p>
+            <div class="subscribe-form-flex">
+              <input
+                type="email"
+                name="subscribe_email"
+                class="subscribe-form-input"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="text-button subscribe-form-button">
+                Subscribe
+                <svg width="24" height="20" class="section-footer-icon">
+                  <use href="./images/icons.svg#icon-Frame-3"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
