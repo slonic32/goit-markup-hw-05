@@ -513,7 +513,7 @@ button {
   margin: 0 auto;
 }
 
-.subscribe-form-flex {
+.subscribe-form {
   display: flex;
   gap: 24px;
 }
