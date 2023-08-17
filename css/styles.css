@@ -47,9 +47,19 @@ input {
   font-family: inherit;
 }
 
+textarea {
+  font-family: inherit;
+}
+
 button {
   font-family: inherit;
   color: currentColor;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 .container {
@@ -714,6 +724,7 @@ button {
   transition-property: opacity, visibility;
   transition-delay: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 24px;
 }
 
 .modal-window {
@@ -730,6 +741,7 @@ button {
   transition-property: transform;
   transition-delay: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-button {
@@ -766,4 +778,73 @@ button {
 .modal-button:hover .modal-button-icon,
 .modal-button:focus .modal-button-icon {
   fill: var(--color-WHITE);
+}
+
+.modal-form {
+  display: block;
+}
+
+.modal-form-legend {
+  text-align: center;
+  color: var(--color-Navy-blue);
+  margin-bottom: 16px;
+}
+
+.modal-form-label {
+  display: block;
+  color: var(--color-LIGHT-SLATE);
+  margin-bottom: 4px;
+}
+
+.modal-form-input {
+  width: 360px;
+  height: 40px;
+  margin-bottom: 8px;
+  color: var(--color-NAVY-BLUE-modal);
+}
+
+.modal-form-textarea {
+  width: 360px;
+  height: 120px;
+  color: var(--color-NAVY-BLUE-modal);
+  margin-bottom: 16px;
+}
+
+.modal-form-checkbox {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  color: var(--color-NAVY-BLUE-modal);
+}
+
+.modal-form-checkbox-conteiner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.modal-form-label-checkbox {
+  color: var(--color-LIGHT-SLATE);
+}
+
+.modal-form-button {
+  display: block;
+  text-align: center;
+  color: var(--color-WHITE);
+  background-color: var(--color-Iris);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
+  min-width: 169px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-button:hover,
+.modal-form-button:focus {
+  background-color: var(--color-OCEAN);
 }
