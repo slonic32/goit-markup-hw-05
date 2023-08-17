@@ -868,11 +868,12 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .modal-form-checkbox:checked
   + .modal-form-label-checkbox
-  > modal-form-checkbox-box {
+  > .modal-form-checkbox-box {
   background-color: var(--color-OCEAN);
   border: none;
   fill: var(--color-CLOUD);
