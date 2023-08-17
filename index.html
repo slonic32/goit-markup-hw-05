@@ -512,7 +512,11 @@
             </label>
             <button type="submit" class="text-button subscribe-form-button">
               Subscribe
-              <svg width="24" height="24" class="section-footer-icon">
+              <svg
+                width="24"
+                height="24"
+                class="section-footer-icon subscribe-form-icon"
+              >
                 <use href="./images/icons.svg#icon-Frame-3"></use>
               </svg>
             </button>
@@ -531,45 +535,64 @@
           </svg>
         </button>
         <!--Modal form-->
+        <p class="text-body-medium modal-form-legend">
+          Leave your contacts and we will call you back
+        </p>
         <form class="modal-form">
-          <fieldset>
-            <legend class="text-body-medium modal-form-legend">
-              Leave your contacts and we will call you back
-            </legend>
-
-            <label for="modal_form_name" class="text-small modal-form-label">
+          <div class="modal-form-section">
+            <label for="user-name" class="text-small modal-form-label">
               Name
             </label>
-            <input
-              type="text"
-              class="text-small modal-form-input modal-form-input-name"
-              name="modal_form_name"
-              id="modal_form_name"
-              required
-              autofocus
-            />
 
-            <label for="modal_form_tel" class="text-small modal-form-label">
+            <div class="modal-form-input-container">
+              <input
+                type="text"
+                class="text-small modal-form-input"
+                name="user-name"
+                id="user-name"
+                required
+                autofocus
+              />
+              <svg class="modal-form-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
+
+            <label for="user-phone" class="text-small modal-form-label">
               Phone
             </label>
-            <input
-              type="tel"
-              class="text-small modal-form-input"
-              name="modal_form_tel"
-              id="modal_form_tel"
-              required
-            />
 
-            <label for="modal_form_email" class="text-small modal-form-label">
+            <div class="modal-form-input-container">
+              <input
+                type="text"
+                class="text-small modal-form-input"
+                name="user-phone"
+                id="user-phone"
+                required
+                autofocus
+              />
+              <svg class="modal-form-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
+
+            <label for="user-mail" class="text-small modal-form-label">
               Email
             </label>
-            <input
-              type="email"
-              class="text-small modal-form-input"
-              name="modal_form_email"
-              id="modal_form_email"
-              required
-            />
+
+            <div class="modal-form-input-container">
+              <input
+                type="text"
+                class="text-small modal-form-input"
+                name="user-mail"
+                id="user-mail"
+                required
+                autofocus
+              />
+              <svg class="modal-form-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
 
             <label for="modal_form_comment" class="text-small modal-form-label">
               Comment
@@ -581,26 +604,29 @@
             >
             Text input
             </textarea>
-          </fieldset>
-          <div class="modal-form-checkbox-conteiner">
-            <input
-              type="checkbox"
-              name="modal_form_accept"
-              id="modal_form_accept"
-              class="modal-form-checkbox"
-              value="checked"
-              required
-            />
-            <label
-              for="modal_form_accept"
-              class="text-small modal-form-label-checkbox"
-              >I accept the terms and conditions of the
-              <span><a href="" class="link text-link">Privacy Policy</a></span>
-            </label>
+
+            <div class="modal-form-checkbox-conteiner">
+              <input
+                type="checkbox"
+                name="modal_form_accept"
+                id="modal_form_accept"
+                class="modal-form-checkbox"
+                value="checked"
+                required
+              />
+              <label
+                for="modal_form_accept"
+                class="text-small modal-form-label-checkbox"
+                >I accept the terms and conditions of the
+                <span
+                  ><a href="" class="link text-link">Privacy Policy</a></span
+                >
+              </label>
+            </div>
+            <button type="submit" class="text-button modal-form-button">
+              Send
+            </button>
           </div>
-          <button type="submit" class="text-button modal-form-button">
-            Send
-          </button>
         </form>
       </div>
     </div>
