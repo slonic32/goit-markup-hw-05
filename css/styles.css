@@ -866,24 +866,20 @@ button {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
   fill: transparent;
 }
 
 .modal-form-checkbox:checked
-  + .modal-form-label-checkbox.modal-form-checkbox-box {
-  border: none;
-  fill: var(--color-OCEAN);
-}
-
-.modal-form-checkbox:checked:focus,
-.modal-form-checkbox:checked:hover {
+  + .modal-form-label-checkbox
+  > modal-form-checkbox-box {
   background-color: var(--color-OCEAN);
+  border: none;
+  fill: var(--color-CLOUD);
 }
 
-.modal-form-checkbox:focus,
-.modal-form-checkbox:hover {
-  color: var(--color-OCEAN);
+.modal-form-checkbox-link {
+  color: var(--color-Iris);
 }
 
 .modal-form-checkbox-conteiner {
