@@ -43,6 +43,15 @@ svg {
   height: auto;
 }
 
+input {
+  font-family: inherit;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+}
+
 .container {
   max-width: 1158px;
   margin: 0 auto;
