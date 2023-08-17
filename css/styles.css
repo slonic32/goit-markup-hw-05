@@ -805,6 +805,13 @@ button {
   border: 1px solid var(--color-NAVY-BLUE-modal);
 }
 
+.modal-form-input-name {
+  background: url(../images/icons.svg#icon-person-black-18dp-1) no-repeat left;
+  background-size: 18px;
+  fill: var(--color-NAVY-BLUE-modal);
+  padding: 14px 19px;
+}
+
 .modal-form-input:focus,
 .modal-form-input:hover {
   color: var(--color-Iris);
