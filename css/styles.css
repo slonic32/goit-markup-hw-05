@@ -774,7 +774,7 @@ button {
 
 .modal-button:hover,
 .modal-button:focus {
-  background-color: var(--color-OCEAN);
+  background-color: #404bbf;
   border: none;
 }
 
@@ -786,7 +786,7 @@ button {
 
 .modal-button:hover .modal-button-icon,
 .modal-button:focus .modal-button-icon {
-  fill: var(--color-WHITE);
+  fill: #ffffff;
 }
 
 .modal-form {
