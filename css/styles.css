@@ -772,12 +772,8 @@ button {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-button:focus,
 .modal-button:hover {
-  background-color: #404bbf;
-  border: none;
-}
-
-.modal-button:focus {
   background-color: #404bbf;
   border: none;
 }
@@ -883,9 +879,8 @@ button {
 .modal-form-checkbox:checked
   + .modal-form-label-checkbox
   > .modal-form-checkbox-box {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
+  background-color: var(--color-OCEAN);
+  fill: var(--color-CLOUD);
 }
 
 .modal-form-checkbox-link {
