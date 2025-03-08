@@ -787,8 +787,6 @@ button {
 .modal-button:hover .modal-button-icon,
 .modal-button:focus .modal-button-icon {
   fill: #ffffff;
-  background-color: #404bbf;
-  border: none;
 }
 
 .modal-form {
