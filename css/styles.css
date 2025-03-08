@@ -334,6 +334,11 @@ button {
   padding-bottom: 120px;
 }
 
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .section-team-header-big {
   text-align: center;
   color: var(--color-Navy-blue);
@@ -557,7 +562,7 @@ button {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0.04em;
   border-radius: 4px;
   border: 1px solid var(--color-WHITE);
@@ -820,7 +825,7 @@ button {
 }
 
 .modal-form-input:focus {
-  border-color: var(--color-Iris);
+  border-color: #4d5ae5;
 }
 
 .modal-form-input-icon {
@@ -832,7 +837,7 @@ button {
 }
 
 .modal-form-input:focus + .modal-form-input-icon {
-  fill: var(--color-Iris);
+  fill: #4d5ae5;
 }
 
 .modal-form-textarea-container {
@@ -853,7 +858,7 @@ button {
 }
 
 .modal-form-textarea:focus {
-  border-color: var(--color-Iris);
+  border-color: #4d5ae5;
 }
 
 .modal-form-checkbox-box {
@@ -874,9 +879,9 @@ button {
 .modal-form-checkbox:checked
   + .modal-form-label-checkbox
   > .modal-form-checkbox-box {
-  background-color: var(--color-OCEAN);
+  background-color: #404bbf;
   border: none;
-  fill: var(--color-CLOUD);
+  fill: #f4f4fd;
 }
 
 .modal-form-checkbox-link {
@@ -913,5 +918,12 @@ button {
 
 .modal-form-button:hover,
 .modal-form-button:focus {
-  background-color: var(--color-OCEAN);
+  background-color: #404bbf;
+  border: none;
+}
+
+.text-header-portfolio {
+  text-align: center;
+  color: var(--color-Navy-blue);
+  margin-bottom: 72px;
 }
