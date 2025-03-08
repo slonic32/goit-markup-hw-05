@@ -773,7 +773,8 @@ button {
 }
 
 .modal-button:focus,
-.modal-button:hover {
+.modal-button:hover,
+.modal-button:active {
   background-color: #404bbf;
   border: none;
 }
