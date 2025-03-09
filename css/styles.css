@@ -838,6 +838,7 @@ button {
   > .modal-form-checkbox-box {
   background-color: var(--color-OCEAN);
   fill: var(--color-CLOUD);
+  border: none;
 }
 
 .modal-form-checkbox-link {
