@@ -733,6 +733,10 @@ button {
 
 .modal-button:focus,
 .modal-button:hover {
+}
+
+.test:focus,
+.test:hover {
   background-color: #404bbf;
   border: none;
 }
